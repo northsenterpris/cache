@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cache Support</title>
+<meta name="description" content="Help for Cache: Private Expense Tracker. Log expenses in 3 taps, with no login and no bank link.">
+<style>
+  :root {
+    --bg: #ffffff; --text: #1d1d1f; --muted: #5b5b60; --card: #f3f6f5; --accent: #0a4d48; --hero: #0a4d48; --line: #dfe5e3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1312; --text: #eef2f1; --muted: #a7b0ae; --card: #1a2120; --accent: #6fd3c4; --hero: #0a4d48; --line: #2a3331; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  header { background: var(--hero); color: #fff; }
+  header div, main { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  header div { padding-top: 48px; padding-bottom: 40px; }
+  header h1 { font-size: 36px; line-height: 1.1; margin: 0 0 10px; letter-spacing: -0.02em; }
+  header p { margin: 0; font-size: 19px; opacity: 0.92; }
+  main { padding-top: 32px; padding-bottom: 64px; }
+  a { color: var(--accent); }
+  h2 { font-size: 22px; margin: 32px 0 12px; }
+  .contact { background: var(--card); border-radius: 14px; padding: 18px 20px; }
+  .contact p { margin: 0; }
+  details { border-bottom: 1px solid var(--line); padding: 14px 0; }
+  summary { cursor: pointer; font-weight: 600; list-style-position: outside; }
+  details p, details ol { margin: 10px 0 0; color: var(--text); }
+  ol { padding-left: 22px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Cache</h1>
+    <p>Private expense tracker. Log in 3 taps. No login, no bank link, works offline.</p>
+  </div>
+</header>
+<main>
+  <div class="contact">
+    <p><strong>Need help?</strong> Email <a href="mailto:ipsenmia90@gmail.com">ipsenmia90@gmail.com</a> and include your iPhone model and iOS version.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+
+  <details open>
+    <summary>Where is my data stored?</summary>
+    <p>Only on your iPhone. Expenses, notes, budgets and categories are stored in Cache's own storage on the device. There is no account and no server copy, so we can't see your data and nothing you log is uploaded. Anonymous usage statistics are the only thing Cache sends, and you can switch them off in Settings › Privacy. See the <a href="privacy/">Privacy Policy</a>.</p>
+  </details>
+
+  <details>
+    <summary>Does Cache work without internet?</summary>
+    <p>Yes. Logging, budgets, charts, reminders and the widget all work offline. A connection is only needed to buy or restore Cache Pro.</p>
+  </details>
+
+  <details>
+    <summary>How do I export my expenses?</summary>
+    <ol>
+      <li>Open Cache and tap the gear (Settings).</li>
+      <li>Tap <strong>Export</strong>.</li>
+      <li>Choose <strong>CSV</strong> for every expense (opens in Numbers, Excel or Google Sheets) or <strong>PDF</strong> for a printable month report, then pick where to send it.</li>
+    </ol>
+    <p>Export is part of Cache Pro.</p>
+  </details>
+
+  <details>
+    <summary>What happens to my data if I get a new iPhone or delete the app?</summary>
+    <p>Because your data never leaves your iPhone, deleting the app deletes your expenses. Before switching phones, export a CSV (Settings › Export) to keep a copy.</p>
+  </details>
+
+  <details>
+    <summary>How do I cancel my subscription?</summary>
+    <ol>
+      <li>Open the iPhone <strong>Settings</strong> app and tap your name.</li>
+      <li>Tap <strong>Subscriptions</strong>, then <strong>Cache</strong>.</li>
+      <li>Tap <strong>Cancel Subscription</strong>.</li>
+    </ol>
+    <p>You can also get there from Cache › Settings › Manage Subscription. Cancel at least 24 hours before the renewal date (or before the free trial ends) to avoid being charged. Pro stays active until the end of the period you paid for. Deleting the app does not cancel a subscription.</p>
+  </details>
+
+  <details>
+    <summary>How do I restore my purchase?</summary>
+    <p>Open Cache › Settings and tap <strong>Restore Purchases</strong>. Make sure you are signed in to the App Store with the same Apple Account you bought Cache Pro with. Lifetime purchases and active subscriptions are restored on every iPhone that uses that Apple Account.</p>
+  </details>
+
+  <details>
+    <summary>How do I get a refund?</summary>
+    <p>Purchases are handled by Apple. Request a refund at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+  </details>
+
+  <details>
+    <summary>How do I turn off the anonymous usage data?</summary>
+    <p>Open Cache › Settings › Privacy and switch off <strong>Share anonymous usage data</strong>. Collection stops right away.</p>
+  </details>
+
+  <footer>
+    <a href="privacy/">Privacy Policy</a> ·
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple Standard EULA)</a>
+  </footer>
+</main>
+</body>
+</html>
